@@ -49,7 +49,7 @@ TEXT
  { "full_text" : " ⛃ [$diskio] " , "color" : "\#ffcccc"},
 
 # Sound
-{"full_text": " 🔊 [${texeci 3 /home/bolli/bin/conkysound}] ", "color":"\#ffffff"},
+{"full_text": " 🔊 [${texeci 3 conkysound}] ", "color":"\#ffffff"},
 
 # Time:
 {"full_text":" ${time [%a %b %d ⏱  %H:%M]} ","color":"\#1793D1","separator":false}
