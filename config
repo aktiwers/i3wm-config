@@ -157,7 +157,7 @@ bindsym $mod+r mode "resize"
 bar {
 	position top
         #status_command i3status
-        status_command  /home/bolli/bin/conky-i3bar
+        status_command  conky-i3bar
         tray_output primary
 }
 
@@ -165,7 +165,7 @@ bar {
 ## Autostart section
 
 exec --no-startup-id nm-applet
-exec --no-startup-id feh --bg-scale /home/bolli/Pictures/stallmanwarn.jpg
+exec --no-startup-id feh --bg-scale /path/to/wallpaper/stallmanwarn.jpg
 exec xset s off 
 exec xcompmgr -c -n 
 
